@@ -55,6 +55,7 @@ const server = http.createServer((request, response) => {
    <td rowspan="10" align="center"><img src="https://simak.unismuh.ac.id/upload/mahasiswa/${parsedURL.query.nim}.jpg"></td>
 </tr>
 <tr>
+<td>Nama</td>
 <td>${parsedURL.query.nama}</td>
 
 </tr>
